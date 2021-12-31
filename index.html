@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>countdown year</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container text-center">
+        <div class="col-md-12">
+          <h1 id="header" class="">Happy New Year 2022</h1>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="clock">
+            <div class="well top-pane">
+              <div id="days" class="num">00</div>
+            </div>
+            <div class="well bottom-pane">
+              <div id="days-text" class="text">Hari</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="clock">
+            <div class="well top-pane">
+              <div id="hours" class="num">00</div>
+            </div>
+            <div class="well bottom-pane">
+              <div id="hours-text" class="text">Jam</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="clock">
+            <div class="well top-pane">
+              <div id="mins" class="num">00</div>
+            </div>
+            <div class="well bottom-pane">
+              <div id="mins-text" class="text">Menit</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="clock">
+            <div class="well top-pane">
+              <div id="secs" class="num">00</div>
+            </div>
+            <div class="well bottom-pane">
+              <div id="secs-text" class="text">Detik</div>
+            </div>
+          </div>
+        </div>
+        <div id="info" class="small"></div>
+      </div>
+    </div>
+    <audio controls="pause" autoplay name="media" id="audio" width="0" height="0">
+      <source src="https://a.top4top.io/m_2171hj7t61.mp3" type="audio/mp3" />
+    </audio>
+
+    <!-- vidio -->
+    <div class="section">
+      <video autoplay muted loop>
+        <source src="animation firework.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
